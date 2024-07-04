@@ -1,0 +1,264 @@
+{
+  "Nodes": [
+    {
+      "Annotation": "all_tundra_nodes",
+      "DisplayName": null,
+      "Inputs": [],
+      "Outputs": [],
+      "ToBuildDependencies": [
+        1,
+        2,
+        3
+      ],
+      "OverwriteOutputs": false,
+      "DebugActionIndex": 0
+    },
+    {
+      "Annotation": "ScriptAssemblies",
+      "DisplayName": null,
+      "Inputs": [],
+      "Outputs": [],
+      "OverwriteOutputs": false,
+      "DebugActionIndex": 1
+    },
+    {
+      "Annotation": "BuildPlayerDataGenerator Library/BuildPlayerData/Editor/TypeDb-All.json",
+      "DisplayName": "BuildPlayerDataGenerator TypeDb-All",
+      "Action": "\"H:/UnityEditors/2022.3.35f1/Editor/Data\\Tools\\netcorerun\\netcorerun.exe\" \"H:/UnityEditors/2022.3.35f1/Editor/Data/Tools/BuildPlayerDataGenerator/BuildPlayerDataGenerator.exe\" -a=\"F:\\DiceTest\\DiceRoll\\DiceRoll\\Assets\\Packages\\Nakama\\Runtime\\Plugins\\Nakama.dll\" -a=\"F:\\DiceTest\\DiceRoll\\DiceRoll\\Assets\\Packages\\Nakama\\Runtime\\Plugins\\Satori.dll\" -a=\"F:\\DiceTest\\DiceRoll\\DiceRoll\\Library\\ScriptAssemblies\\Assembly-CSharp.dll\" -a=\"F:\\DiceTest\\DiceRoll\\DiceRoll\\Library\\ScriptAssemblies\\NakamaEditor.dll\" -a=\"F:\\DiceTest\\DiceRoll\\DiceRoll\\Library\\ScriptAssemblies\\NakamaRuntime.dll\" -a=\"F:\\DiceTest\\DiceRoll\\DiceRoll\\Library\\ScriptAssemblies\\Unity.TextMeshPro.dll\" -a=\"F:\\DiceTest\\DiceRoll\\DiceRoll\\Library\\ScriptAssemblies\\Unity.Timeline.dll\" -a=\"F:\\DiceTest\\DiceRoll\\DiceRoll\\Library\\ScriptAssemblies\\Unity.VisualScripting.Core.dll\" -a=\"F:\\DiceTest\\DiceRoll\\DiceRoll\\Library\\ScriptAssemblies\\Unity.VisualScripting.Flow.dll\" -a=\"F:\\DiceTest\\DiceRoll\\DiceRoll\\Library\\ScriptAssemblies\\Unity.VisualScripting.State.dll\" -a=\"F:\\DiceTest\\DiceRoll\\DiceRoll\\Library\\ScriptAssemblies\\UnityEngine.TestRunner.dll\" -a=\"F:\\DiceTest\\DiceRoll\\DiceRoll\\Library\\ScriptAssemblies\\UnityEngine.UI.dll\" -a=\"F:\\DiceTest\\DiceRoll\\DiceRoll\\Library\\PackageCache\\com.unity.ext.nunit@1.0.6\\net35\\unity-custom\\nunit.framework.dll\" -a=\"F:\\DiceTest\\DiceRoll\\DiceRoll\\Library\\PackageCache\\com.unity.testtools.codecoverage@1.2.5\\lib\\ReportGenerator\\ReportGeneratorMerged.dll\" -a=\"F:\\DiceTest\\DiceRoll\\DiceRoll\\Library\\PackageCache\\com.unity.visualscripting@1.9.4\\Runtime\\VisualScripting.Flow\\Dependencies\\NCalc\\Unity.VisualScripting.Antlr3.Runtime.dll\" -s=\"F:\\DiceTest\\DiceRoll\\DiceRoll\\Assets\\Packages\\Nakama\\Runtime\\Plugins\" -s=\"H:\\UnityEditors\\2022.3.35f1\\Editor\\Data\\Managed\\UnityEngine\" -s=\"H:\\UnityEditors\\2022.3.35f1\\Editor\\Data\\NetStandard\\compat\\2.1.0\\shims\\netfx\" -s=\"H:\\UnityEditors\\2022.3.35f1\\Editor\\Data\\NetStandard\\compat\\2.1.0\\shims\\netstandard\" -s=\"H:\\UnityEditors\\2022.3.35f1\\Editor\\Data\\NetStandard\\Extensions\\2.0.0\" -s=\"H:\\UnityEditors\\2022.3.35f1\\Editor\\Data\\NetStandard\\ref\\2.1.0\" -s=\"F:\\DiceTest\\DiceRoll\\DiceRoll\\Library\\ScriptAssemblies\" -s=\"F:\\DiceTest\\DiceRoll\\DiceRoll\\Library\\PackageCache\\com.unity.ext.nunit@1.0.6\\net35\\unity-custom\" -s=\"F:\\DiceTest\\DiceRoll\\DiceRoll\\Library\\PackageCache\\com.unity.testtools.codecoverage@1.2.5\\lib\\ReportGenerator\" -s=\"F:\\DiceTest\\DiceRoll\\DiceRoll\\Library\\PackageCache\\com.unity.visualscripting@1.9.4\\Runtime\\VisualScripting.Flow\\Dependencies\\NCalc\" -o=\"Library/BuildPlayerData/Editor\" -rn=\"\" -tn=\"TypeDb-All.json\"",
+      "Inputs": [
+        "H:/UnityEditors/2022.3.35f1/Editor/Data/Tools/netcorerun/netcorerun.exe",
+        "H:/UnityEditors/2022.3.35f1/Editor/Data/Tools/BuildPlayerDataGenerator/BuildPlayerDataGenerator.exe",
+        "Assets/Packages/Nakama/Runtime/Plugins/Nakama.dll",
+        "Assets/Packages/Nakama/Runtime/Plugins/Satori.dll",
+        "Library/ScriptAssemblies/Assembly-CSharp.dll",
+        "Library/ScriptAssemblies/NakamaEditor.dll",
+        "Library/ScriptAssemblies/NakamaRuntime.dll",
+        "Library/ScriptAssemblies/Unity.TextMeshPro.dll",
+        "Library/ScriptAssemblies/Unity.Timeline.dll",
+        "Library/ScriptAssemblies/Unity.VisualScripting.Core.dll",
+        "Library/ScriptAssemblies/Unity.VisualScripting.Flow.dll",
+        "Library/ScriptAssemblies/Unity.VisualScripting.State.dll",
+        "Library/ScriptAssemblies/UnityEngine.TestRunner.dll",
+        "Library/ScriptAssemblies/UnityEngine.UI.dll",
+        "Library/PackageCache/com.unity.ext.nunit@1.0.6/net35/unity-custom/nunit.framework.dll",
+        "Library/PackageCache/com.unity.testtools.codecoverage@1.2.5/lib/ReportGenerator/ReportGeneratorMerged.dll",
+        "Library/PackageCache/com.unity.visualscripting@1.9.4/Runtime/VisualScripting.Flow/Dependencies/NCalc/Unity.VisualScripting.Antlr3.Runtime.dll"
+      ],
+      "Outputs": [
+        "Library/BuildPlayerData/Editor/TypeDb-All.json"
+      ],
+      "AllowUnexpectedOutput": true,
+      "Env": [],
+      "DebugActionIndex": 2
+    },
+    {
+      "Annotation": "ScriptAssembliesAndTypeDB",
+      "DisplayName": null,
+      "Inputs": [],
+      "Outputs": [],
+      "ToBuildDependencies": [
+        1,
+        2
+      ],
+      "OverwriteOutputs": false,
+      "DebugActionIndex": 3
+    }
+  ],
+  "FileSignatures": [
+    {
+      "File": "H:/UnityEditors/2022.3.35f1/Editor/Data/Tools/BuildPipeline/Bee.BuildTools.dll"
+    },
+    {
+      "File": "H:/UnityEditors/2022.3.35f1/Editor/Data/Tools/BuildPipeline/Bee.Core.dll"
+    },
+    {
+      "File": "H:/UnityEditors/2022.3.35f1/Editor/Data/Tools/BuildPipeline/Bee.CSharpSupport.dll"
+    },
+    {
+      "File": "H:/UnityEditors/2022.3.35f1/Editor/Data/Tools/BuildPipeline/Bee.DotNet.dll"
+    },
+    {
+      "File": "H:/UnityEditors/2022.3.35f1/Editor/Data/Tools/BuildPipeline/Bee.NativeProgramSupport.dll"
+    },
+    {
+      "File": "H:/UnityEditors/2022.3.35f1/Editor/Data/Tools/BuildPipeline/Bee.Stevedore.Program.exe"
+    },
+    {
+      "File": "H:/UnityEditors/2022.3.35f1/Editor/Data/Tools/BuildPipeline/Bee.TinyProfiler2.dll"
+    },
+    {
+      "File": "H:/UnityEditors/2022.3.35f1/Editor/Data/Tools/BuildPipeline/Bee.Toolchain.GNU.dll"
+    },
+    {
+      "File": "H:/UnityEditors/2022.3.35f1/Editor/Data/Tools/BuildPipeline/Bee.Toolchain.LLVM.dll"
+    },
+    {
+      "File": "H:/UnityEditors/2022.3.35f1/Editor/Data/Tools/BuildPipeline/Bee.Toolchain.VisualStudio.dll"
+    },
+    {
+      "File": "H:/UnityEditors/2022.3.35f1/Editor/Data/Tools/BuildPipeline/Bee.Toolchain.Xcode.dll"
+    },
+    {
+      "File": "H:/UnityEditors/2022.3.35f1/Editor/Data/Tools/BuildPipeline/Bee.Tools.dll"
+    },
+    {
+      "File": "H:/UnityEditors/2022.3.35f1/Editor/Data/Tools/BuildPipeline/Bee.TundraBackend.dll"
+    },
+    {
+      "File": "H:/UnityEditors/2022.3.35f1/Editor/Data/Tools/BuildPipeline/Bee.VisualStudioSolution.dll"
+    },
+    {
+      "File": "H:/UnityEditors/2022.3.35f1/Editor/Data/Tools/BuildPipeline/BeeBuildProgramCommon.Data.dll"
+    },
+    {
+      "File": "H:/UnityEditors/2022.3.35f1/Editor/Data/Tools/BuildPipeline/BeeBuildProgramCommon.dll"
+    },
+    {
+      "File": "H:/UnityEditors/2022.3.35f1/Editor/Data/Tools/BuildPipeline/BeeLocalCacheTool.exe"
+    },
+    {
+      "File": "H:/UnityEditors/2022.3.35f1/Editor/Data/Tools/BuildPipeline/Newtonsoft.Json.dll"
+    },
+    {
+      "File": "H:/UnityEditors/2022.3.35f1/Editor/Data/Tools/BuildPipeline/NiceIO.dll"
+    },
+    {
+      "File": "H:/UnityEditors/2022.3.35f1/Editor/Data/Tools/BuildPipeline/PlayerBuildProgramLibrary.Data.dll"
+    },
+    {
+      "File": "H:/UnityEditors/2022.3.35f1/Editor/Data/Tools/BuildPipeline/PlayerBuildProgramLibrary.dll"
+    },
+    {
+      "File": "H:/UnityEditors/2022.3.35f1/Editor/Data/Tools/BuildPipeline/ScriptCompilationBuildProgram.Data.dll"
+    },
+    {
+      "File": "H:/UnityEditors/2022.3.35f1/Editor/Data/Tools/BuildPipeline/ScriptCompilationBuildProgram.exe"
+    },
+    {
+      "File": "H:/UnityEditors/2022.3.35f1/Editor/Data/Tools/BuildPipeline/SharpYaml.dll"
+    },
+    {
+      "File": "H:/UnityEditors/2022.3.35f1/Editor/Data/Tools/BuildPipeline/Unity.Api.Attributes.dll"
+    },
+    {
+      "File": "H:/UnityEditors/2022.3.35f1/Editor/Data/Tools/BuildPipeline/Unity.Cecil.dll"
+    },
+    {
+      "File": "H:/UnityEditors/2022.3.35f1/Editor/Data/Tools/BuildPipeline/Unity.Cecil.Mdb.dll"
+    },
+    {
+      "File": "H:/UnityEditors/2022.3.35f1/Editor/Data/Tools/BuildPipeline/Unity.Cecil.Pdb.dll"
+    },
+    {
+      "File": "H:/UnityEditors/2022.3.35f1/Editor/Data/Tools/BuildPipeline/Unity.Cecil.Rocks.dll"
+    },
+    {
+      "File": "H:/UnityEditors/2022.3.35f1/Editor/Data/Tools/BuildPipeline/Unity.IL2CPP.Api.dll"
+    },
+    {
+      "File": "H:/UnityEditors/2022.3.35f1/Editor/Data/Tools/BuildPipeline/Unity.IL2CPP.Bee.BuildLogic.dll"
+    },
+    {
+      "File": "H:/UnityEditors/2022.3.35f1/Editor/Data/Tools/BuildPipeline/Unity.IL2CPP.Bee.IL2CPPExeCompileCppBuildProgram.Data.dll"
+    },
+    {
+      "File": "H:/UnityEditors/2022.3.35f1/Editor/Data/Tools/BuildPipeline/Unity.Linker.Api.dll"
+    },
+    {
+      "File": "H:/UnityEditors/2022.3.35f1/Editor/Data/Tools/BuildPipeline/Unity.Options.dll"
+    },
+    {
+      "File": "Library/Bee/1900b0aEDbgSkipCompile-inputdata.json"
+    }
+  ],
+  "StatSignatures": [
+    {
+      "File": "Assets/csc.rsp"
+    },
+    {
+      "File": "Assets/mcs.rsp"
+    },
+    {
+      "File": "Assets/Packages/Nakama/Runtime/Plugins/Nakama.dll"
+    },
+    {
+      "File": "Assets/Packages/Nakama/Runtime/Plugins/Satori.dll"
+    },
+    {
+      "File": "Library/Bee/1900b0aEDbgSkipCompile-inputdata.json"
+    },
+    {
+      "File": "Library/PackageCache/com.unity.ext.nunit@1.0.6/net35/unity-custom/nunit.framework.dll"
+    },
+    {
+      "File": "Library/PackageCache/com.unity.testtools.codecoverage@1.2.5/lib/ReportGenerator/ReportGeneratorMerged.dll"
+    },
+    {
+      "File": "Library/PackageCache/com.unity.visualscripting@1.9.4/Runtime/VisualScripting.Flow/Dependencies/NCalc/Unity.VisualScripting.Antlr3.Runtime.dll"
+    },
+    {
+      "File": "Library/ScriptAssemblies/Assembly-CSharp.dll"
+    },
+    {
+      "File": "Library/ScriptAssemblies/NakamaEditor.dll"
+    },
+    {
+      "File": "Library/ScriptAssemblies/NakamaRuntime.dll"
+    },
+    {
+      "File": "Library/ScriptAssemblies/Unity.TextMeshPro.dll"
+    },
+    {
+      "File": "Library/ScriptAssemblies/Unity.Timeline.dll"
+    },
+    {
+      "File": "Library/ScriptAssemblies/Unity.VisualScripting.Core.dll"
+    },
+    {
+      "File": "Library/ScriptAssemblies/Unity.VisualScripting.Flow.dll"
+    },
+    {
+      "File": "Library/ScriptAssemblies/Unity.VisualScripting.State.dll"
+    },
+    {
+      "File": "Library/ScriptAssemblies/UnityEngine.TestRunner.dll"
+    },
+    {
+      "File": "Library/ScriptAssemblies/UnityEngine.UI.dll"
+    }
+  ],
+  "GlobSignatures": [
+    {
+      "Path": "H:/UnityEditors/2022.3.35f1/Editor/Data/Tools/BuildPipeline"
+    }
+  ],
+  "ContentDigestExtensions": [
+    ".rsp",
+    ".dll",
+    ".exe",
+    ".pdb"
+  ],
+  "StructuredLogFileName": "Library/Bee/tundra.log.json",
+  "StateFileName": "Library/Bee/TundraBuildState.state",
+  "StateFileNameTmp": "Library/Bee/TundraBuildState.state.tmp",
+  "StateFileNameMapped": "Library/Bee/TundraBuildState.state.map",
+  "ScanCacheFileName": "Library/Bee/tundra.scancache",
+  "ScanCacheFileNameTmp": "Library/Bee/tundra.scancache.tmp",
+  "DigestCacheFileName": "Library/Bee/tundra.digestcache",
+  "DigestCacheFileNameTmp": "Library/Bee/tundra.digestcache.tmp",
+  "CachedNodeOutputDirectoryName": "Library/Bee/CachedNodeOutput",
+  "EmitDataForBeeWhy": 0,
+        "NamedNodes": {
+          "all_tundra_nodes": 0,
+          "ScriptAssemblies": 1,
+          "ScriptAssembliesAndTypeDB": 3
+        }
+,  "DefaultNodes": [
+    0
+  ],
+  "SharedResources": [],
+  "Scanners": [],
+  "Identifier": "Library/Bee/1900b0aEDbgSkipCompile.dag.json",
+  "PayloadsFile": "F:/DiceTest/DiceRoll/DiceRoll/Library/Bee/1900b0aEDbgSkipCompile.dag.payloads",
+  "RelativePathToRoot": "../.."
+}
